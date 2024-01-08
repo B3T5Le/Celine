@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport"content="width=device-width, initial-scale=1.0">
+<title>CELİNE</title>
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="style.css">
+<body>
+</head>
+<div class="header_bar">100 TL VE ÜZERİ ŞİPARİŞLERE KARGO BEDAVA !!!</div>
+<nav class="section_container nav_conteiner">
+	<a href="https://www.celine.com/en-int/home"class="nav_logo">CELİNE ULUSLARASI</a>
+	<ul class="nav_links">
+		<li class="link"><a href="üyelik.html">ÜYE OL</a></li>
+		<li class="link"><a href="urunler.html">MAĞAZA</a></li>
+		<li class="link"><a href="urunler.html">ÜRÜNLERİMİZ</a></li>
+		<li class="link"><a href="hakkimizda.html">HAKKIMIZDA</a></li>
+		<li class="link"><a href="iletisim.html">İLETİŞİM</a></li>
+	</ul>
+
+	<div class="nav_icons">
+		<span><i class="ri-shield-user-line"></i> </span>
+		<span><i class="ri-search-line"></i></span>
+		<span><i class="ri-shopping-bag-2-line"></i></span>
+			
+	</div>
+</nav>
+<!-----------------------------başlık kısmı-------------------------------------------------------------->
+<header>
+	<div class="section_container header_container">
+		<div class="header_content">
+			<p>EXTRA %50 KIŞ İNDİRİMİ</p>
+			<h1>KEŞFET VE SATIN AL <br>SONBAHAR/KIŞ 2024</h1>
+			<button class="btn">ŞİMDİ SATIN AL</button>
+		</div>
+		<div class="header_image">
+			<img src="../Çalışmalarım/images/brandx.jpg" alt="header"> <!--image ekle  header--> 
+
+		</div>
+	</div>
+	<!-------------------------------------------header part--------------------------------------------------------->
+</header>
+
+<!--<section class="section_container collection_container">
+	<img src="../Çalışmalarım/images/collectionn.jpg" alt="collection--"><!--img ekle collection
+	<div class="collection_content">
+		<h2 class="section_title">YENİ SEZON</h2>
+		<p>159 TL'DEN BAŞLAYAN FİYATLARLA</p>
+		<h4>ŞİMDİ ALIŞVERİŞE BAŞLAYIN </h4>
+		<button class="btn">ŞİMDİ SATIN AL</button>
+	</div>
+</section><!--19.59. dkk-->
+<style>
+* {box-sizing: border-box;}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<h2>CELİNE</h2>
+<p>"Çünkü Buna Değersin."</p>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="../Çalışmalarım/images/slider2.jpg" style="width:100%">
+  <div class="text">Celine Paris Mağazamız</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="../Çalışmalarım/images/slider3.jpg" style="width:100%">
+  <div class="text">Celine Paris Mağazamız</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="../Çalışmalarım/images/slider4.jpg" style="width:100%">
+  <div class="text">Kaia Gerber X  CELİNE</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+ 
+<!-----------------------------------------container kısmı----------------------------------------------------------------->
+<section class="section_container sale_container">
+	<h2 class="section_title">BÜYÜK İNDİRİMİ KAÇIRMA</h2>
+	<div class="sale_grid">
+		<div class="sale_card">
+			<img src="../Çalışmalarım/images/celine1.jpg"alt="sale"><!--img ekleee-->
+			<div class="sale_content">
+				<p class="sale_subtitle">KADIN GÖMLEKLER</p>
+				<h4 class="sale_title">İNDİRİM <span>25%</span></h4>
+				<p class="sale_subtitle">-KAÇIRMA-</p>
+				<button class="btn sale_btn">ŞİMDİ AL</button>
+			</div>
+		</div>
+		<div class="sale_card">
+			<img src="../Çalışmalarım/images/celine2.jpg"alt="sale"><!--img ekleee-->
+			<div class="sale_content">
+				<p class="sale_subtitle">ELBİSELER</p>
+				<h4 class="sale_title">İNDİRİM <span>20%</span></h4>
+				<p class="sale_subtitle">-KAÇIRMA-</p>
+				<button class="btn sale_btn">ŞİMDİ AL</button>
+			</div>
+		</div>
+		<div class="sale_card">
+			<img src="../Çalışmalarım/images/celine3.jpg " ><!--img ekleee-->
+			<div class="sale_content">
+				<p class="sale_subtitle">ERKEK TAKIMLAR </p>
+				<h4 class="sale_title">İNDİRİM <span>20%</span></h4>
+				<p class="sale_subtitle">-KAÇIRMA-</p>
+				<button class="btn sale_btn">ŞİMDİ AL</button>
+			</div>
+		</div>
+	</div>
+</section>
+<!-----------------------------------------------------3 adet sale kısmı------------------------------------------------------------->
+<section class="section_container musthave_container">
+	<h2 class="section_title">EN ÇOK SATILANLAR</h2>
+	<div class="musthave_nav">
+		<a href="hepsi.html">HEPSİ</a>
+		<a href="erkek.html">ERKEK</a>
+		<a href="kadın.html">KADIN</a>
+		<a href="canta.html">ÇANTA</a>
+		<a href="ayakkabı.html">AYAKKABI</a>
+	</div>
+	<div class="musthave_grid">
+		<div class="musthave_card">
+			<img src="../Çalışmalarım/images/ençok1.jpg" alt="must have"> 
+			<h4>FENDİ TOPUKLU AYAKKABI</h4>
+			<p><del>135 TL</del>115.00 TL </p>
+		</div>
+	</div>
+<div class="musthave_grid">
+		<div class="musthave_card">
+			<img src="../Çalışmalarım/images/mushave6.jpg" alt="must have" width="30%" height="30%"> 
+			<h4>FENDİ TOPUKLU AYAKKABI</h4>
+			<p><del>135 TL</del>115.00 TL </p>
+		</div>
+	</div>
+	<!--------------------------------------------------ayakkabı ekleme kısmı-------------------------------------------------------->
+<section class="news">
+	<div class="section_container news_container">
+		<h2 class="section_title">Son Çıkan Tasarımlar</h2>
+		<div class="news_grid">
+			<div class="news_card">
+				<img src="../Çalışmalarım/images/cl1.jpg"alt="news">
+				<div class="news_details">
+					<p>MODA <i class="ri-checkbox-blank-circle-fill"></i>
+					<span>BETÜL ESMA </span>
+					<i class="ri-checkbox-blank-circle-fill"></i>ARALIK 19,2023	
+					</p>
+					<h4>SEZON TRENDLERİ</h4>
+					<hr>
+					<p>
+						Mevcut sezonun en son moda trendini tartışın ve bu trendi gardırobunuza nasıl dahil edebileceğinize dair ipuçları ve fikirler sunun.
+					</p>
+					<a href="#"><i class="ri-arrow-right-line"></i></a>				
+				</div>
+			</div>
+			<div class="news_card">
+				<img src="../Çalışmalarım/images/cl2.jpg"alt="news">
+				<div class="news_details">
+					<p>TRENDLER<i class="ri-checkbox-blank-circle-fill"></i>
+					<span>BETÜL ESMA</span>
+					<i class="ri-checkbox-blank-circle-fill"></i>KASIM 24,2023	
+					</p>
+					<h4>SÜRDÜRÜLEBİLİR MODA</h4>
+					<hr>
+					<p>
+						Mevcut sezonun en son moda trendini tartışın ve bu trendi gardırobunuza nasıl dahil edebileceğinize dair ipuçları ve fikirler sunun.
+					</p>
+					<a href="#"><i class=" ri-arrow-right-line"></i></a>				
+				</div>
+			</div>
+			<div class="news_card">
+				<img src="../Çalışmalarım/images/cl3.jpg"alt="news">
+				<div class="news_details">
+					<p>TRENDLER <i class="ri-checkbox-blank-circle-fill"></i>
+					<span>BETÜL ESMA</span>
+					<i class="ri-checkbox-blank-circle-fill"></i>EKİM 25,2023
+					</p>
+					<h4>MODA AKIMLARI VE ÖNERİLER</h4>
+					<hr>
+					<p>
+						Okuyucularınıza nasıl yapılacağına dair pratik ipuçları ve tavsiyeler sunun
+farklı durumlar, vücut tipleri veya stil tercihlerine göre giyin.
+					</p>
+					<a href="#"><i class=" ri-arrow-right-line"></i></a>				
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-------------------------------------------------------------3 adet card-------------------------------------------------->
+	
+</section>
+	
+</section>
+<section class="section_container brands_container">
+	<div class="brand_image">
+		<img src="../Çalışmalarım/images/marka1.jpg" alt="brand">
+	</div>
+	<div class="brand_image">
+		<img src="../Çalışmalarım/images/marka2.jpg" alt="brand">
+	</div>
+	<div class="brand_image">
+		<img src="../Çalışmalarım/images/marka3.png" alt="brand">
+	</div>
+	<div class="brand_image">
+		<img src="../Çalışmalarım/images/marka 4.png" alt="brand">
+	</div>
+	<div class="brand_image">
+		<img src="../Çalışmalarım/images/marka 5.png" alt="brand">
+	</div>
+	<div class="brand_image">
+		<img src="../Çalışmalarım/images/marka6a.png" alt="brand">
+	</div>
+	
+</section>
+
+<hr>
+<!---------------------------------------------markalar brand kısmı----------------------------------------------------------------->
+<footer class="section_container footer_container">
+	<div class="footer_col">
+		<h4 class="footer_heading">HAKKIMIZDA</h4>
+		<p><i class="ri-map-pin-2-fill"></i> 123,NİŞANTAŞI,İSTANBUL
+		</p>
+		<p>
+			<i class="ri-mail-fill"></i> support@celine.com
+		</p>
+		<p>
+			<i class="ri-phone-fill"></i>(+90)111 222 33
+		</p>
+	</div>
+	<div class="footer_col">
+		<h4 class="footer_heading">KAMPANYA</h4>
+		<p>HOME</p>
+		<p>HAKKIMIZDA</p>
+		<p>BİZİMLE ÇALIŞMAK İSTER MİSİNİZ</p>
+		<p>HİKAYEMİZ</p>
+		<p>ŞARTLAR VE KOŞULLAR</p>
+	</div>
+	<div class="footer_col">
+		<h4 class="footer_heading">KULLANILABİLİR LİNKLER</h4>
+		<p>YARDIM</p>
+		<p>SİPARİŞ TAKİP</p>
+		<p>KADIN</p>
+		<p>ERKEK</p>
+		<p>AYAKKABILAR</p>
+	</div>
+	<div class="footer_col">
+		<h4 class="footer_heading">INSTAGRAM</h4>
+		<div class="instagram_grid">
+			<img src="../Çalışmalarım/images/insta1.jpg" alt="instagram">
+			<img src="../Çalışmalarım/images/insta2.jpg" alt="instagram">
+			<img src="../Çalışmalarım/images/insta3.jpg" alt="instagram">
+			<img src="../Çalışmalarım/images/insta4.jpg" alt="instagram">
+			<img src="../Çalışmalarım/images/instaa.jpg" alt="instagram">
+			<img src="../Çalışmalarım/images/instagram6.jpg" alt="instagram">
+		</div>
+	</div>
+</footer>
+<hr>
+<!----------------------------------------------footer kısmı------------------------------------------------------------->
+<div class="section_container footer_bar">
+	<div class="copyright">
+		Copyright@2023 BETÜL ESMA KANIBOZ.Tüm Hakları Saklıdır.
+	</div>
+	<div class="footer_form">
+		<form >
+			<input type="text" placeholder="EMAİL ADRESİNİ GİR">
+				<button class="btn" type="submit" > ÜYE OL</button>
+				<a href="üyelik.html">
+		</form>
+	</div>
+</div>
+<!---------------------------------------------------iletişim bilgileri-------------------------------------------------------->
+</body>		
+</html>
